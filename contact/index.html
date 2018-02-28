@@ -8,7 +8,7 @@
 
   <!-- Title -->
   
-  <title>Bomi Kim</title>
+  <title>contact - Bomi Kim</title>
 
   <!--Favicon-->
   <link rel="icon" href="favicon/favicon.ico">
@@ -58,7 +58,7 @@
         </li>
       
         <li class="nav-item">
-          <a class="nav-link" href="/contact/contact.md">Contact</a>
+          <a class="nav-link" href="/contact">Contact</a>
         </li>
       
         <li class="nav-item">
@@ -76,11 +76,58 @@
 
 
   		<div class="row">
-  			
-<div class="col-12 pt-lg-3 mb-4 px-4 portfolio-content">
-  <p>hello!</p>
+  			<!DOCTYPE html>
+<html>
 
-</div>
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="contact-info" style="width:100%;height:400px;margin-left:25px">
+        <h3 id="email">E-mail</h2>
+            <p>thespringg@naver.com</p><br/>
+        <h3 id="mobile">Mobile</h3>
+            <p>0 1 0 - 4 8 4 9 - 8 5 4 4</p><br/>
+        <h3 id="address">Address</h3>
+            <p>서울시 관악구 관악로 6길 (2호선 서울대입구역)</p>
+    </div>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>간단한 지도 표시하기</title>
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=qqh0RHrZmQAccyCIQAQM"></script>
+</head>
+
+<body>
+    <div id="map" style="width:100%;height:400px;"></div>
+
+    <script>
+        var mapOptions = {
+            center: new naver.maps.LatLng(37.4811525, 126.9526463),
+            zoom: 10
+        };
+
+        var map = new naver.maps.Map('map', mapOptions);
+
+        var markerOptions = {
+            position: new naver.maps.LatLng(37.4811525, 126.9526463),
+            map: map
+        };
+
+        var marker = new naver.maps.Marker(markerOptions);
+    </script>
+</body>
+
+</html>
 
 
       </div>
