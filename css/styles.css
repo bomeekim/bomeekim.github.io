@@ -95,7 +95,9 @@ h1, h2, h3 {
 }
 
 .project-img {
-	width: 100%;
+	/* width: 100%; */
+	width: 315px;
+	margin-top: 120px;
 	display: block;
 	object-fit: cover;
 }
